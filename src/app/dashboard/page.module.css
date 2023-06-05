@@ -2,6 +2,13 @@
   padding-right: 60px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .dashboardContainer {
+    padding: 0 20px;
+    /* margin: 0 auto; */
+  }
+}
+
 .chartContainer {
   background-color: var(--color-white);
   padding: 30px 40px;
@@ -79,9 +86,11 @@
   font-weight: 400;
 }
 
-.renameContainer {
-  display: flex;
-  justify-content: space-between;
+@media only screen and (min-width: 1024px) {
+  .renameContainer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .productsCard {
@@ -90,6 +99,12 @@
   border-radius: 20px;
   padding: 30px 40px;
   margin-right: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .productsCard {
+    margin-bottom: 20px;
+  }
 }
 
 .pieChartContainer {

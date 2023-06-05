@@ -1,6 +1,8 @@
-.cardContainer {
-  display: flex;
-  justify-content: space-between;
+@media only screen and (min-width: 1024px) {
+  .cardContainer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .card {
@@ -12,6 +14,12 @@
 
 .card:not(:last-child) {
   margin-right: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    margin-bottom: 20px;
+  }
 }
 
 .image {

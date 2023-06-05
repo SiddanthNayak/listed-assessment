@@ -3,6 +3,7 @@ import { lato, montserrat, open_sans } from "./fonts";
 import { Provider } from "./components/Provider";
 
 export const metadata = {
+  name: "viewport",
   title: "Listed - Siddanth Nayak",
   description: "Assessment by Listed - submitted by Siddanth Nayak",
 };
