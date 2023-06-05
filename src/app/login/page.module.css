@@ -1,0 +1,114 @@
+.mainContainer {
+  display: flex;
+  height: 100%;
+  background-color: var(--color-bg);
+}
+
+.leftContainer {
+  font-size: 72px;
+  font-weight: 700;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.40833;
+}
+
+.rightContainer {
+  flex: 0.59167;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signInContainer p:first-child {
+  font-weight: 700;
+  font-family: var(--font-montserrat);
+  font-size: 36px;
+}
+
+.signInContainer {
+  min-width: 385px;
+  font-weight: 400;
+  font-family: var(--font-lato);
+  font-size: 16px;
+}
+
+.authContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 26px 0;
+  color: var(--color-grey);
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.logo {
+  margin-right: 10px;
+}
+.authButton:last-of-type {
+  margin-left: 25px;
+}
+
+.loginContainer {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+
+.loginContainer input {
+  border: none;
+  background-color: var(--color-bg);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0px 20px 0px;
+  color: var(--color-black);
+}
+
+.loginContainer label {
+  font-family: var(--font-lato);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.loginContainer p {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+.signInButton {
+  border-radius: 10px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.register {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--color-grey);
+}
+
+.register span {
+  color: var(--color-blue);
+  cursor: pointer;
+}

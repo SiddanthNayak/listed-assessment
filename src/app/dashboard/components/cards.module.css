@@ -1,0 +1,44 @@
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%;
+  border-radius: 20px;
+  color: var(--color-black);
+  padding: 20px 25px;
+}
+
+.card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+}
+.revenue {
+  background-color: #ddefe0;
+}
+.transaction {
+  background-color: #f4ecdd;
+}
+.likes {
+  background-color: #efdada;
+}
+.user {
+  background-color: #dee0ef;
+}
+
+.card p {
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card h3 {
+  font-family: var(--font-os);
+  font-size: 24px;
+  font-weight: 700;
+}
